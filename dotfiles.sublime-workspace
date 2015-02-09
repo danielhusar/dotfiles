@@ -1,0 +1,637 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"che",
+				"checkbox"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"ju",
+				"justify"
+			],
+			[
+				"vertical",
+				"vertical-align"
+			],
+			[
+				"confir",
+				"confirmation"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"ou",
+				"outerHeight	.outerHeight"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"wite",
+				"white-space"
+			],
+			[
+				"transpa",
+				"transparent"
+			],
+			[
+				"focus",
+				"focusColor"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"recal",
+				"recalculate()	account.js"
+			],
+			[
+				"defa",
+				"default"
+			],
+			[
+				"now",
+				"nowrap"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"eve",
+				"events"
+			],
+			[
+				"radios",
+				"radioParents"
+			],
+			[
+				"off",
+				"offset	.offset"
+			],
+			[
+				"hidden",
+				"hidden-radio"
+			],
+			[
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"remove",
+				"removeAttr	.removeAttr()"
+			],
+			[
+				"si",
+				"siblings	.siblings()"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"tr",
+				"tr	Tag"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"sass",
+				"sass-compile"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"gr",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"gru",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"mou",
+				"Markdown: Open with Mou.app"
+			],
+			[
+				"open",
+				"Markdown: Open with Mou.app"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"markdown ex",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"mark",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"PACKA",
+				"Package Control: List Packages"
+			],
+			[
+				"pA",
+				"Package Control: Install Package"
+			],
+			[
+				"pcka",
+				"Package Control: List Packages"
+			],
+			[
+				"paca",
+				"Package Control: List Packages"
+			],
+			[
+				"pacak",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/danielhusar/liberty/6.1.Checkout-Direct-Debit-SEPA.htm",
+		"/Users/danielhusar/_dev/_bash/dotfiles-master/.brew",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/plugins/internal/jQuery.validateProxy.js",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/plugins/internal/jQuery.validateExtend.js",
+		"/Users/danielhusar/_dev/_svn/liberty-insurance-redesign-2013/js/appFunctions1.js",
+		"/Users/danielhusar/_dev/_svn/liberty-insurance-redesign-2013/js/libertyApp.js",
+		"/Users/danielhusar/_dev/_svn/liberty-insurance-redesign-2013/data/validate1.js",
+		"/Users/danielhusar/_dev/_svn/liberty-insurance-redesign-2013/js/appFunctions.js",
+		"/Users/danielhusar/_dev/_svn/liberty-insurance-redesign-2013/6.1.Checkout-Direct-Debit-SEPA.htm",
+		"/Users/danielhusar/_dev/_svn/liberty-insurance-redesign-2013/js/libertyApp-revert.js",
+		"/Users/danielhusar/_dev/_svn/liberty-insurance-redesign-2013/js/libertyApp.min.js",
+		"/Users/danielhusar/_dev/_svn/liberty-insurance-redesign-2013/data/validate.js",
+		"/Users/danielhusar/_dev/_svn/liberty-insurance-redesign-2013/js/libertyApp1.js",
+		"/Users/danielhusar/_dev/_svn/liberty-insurance-redesign-2013/js/libertyApp11.js",
+		"/Users/danielhusar/_dev/_svn/liberty-insurance-redesign-2013/js/libertyApp1.min.js",
+		"/Users/danielhusar/liberty/js/libertyApp.js",
+		"/Users/danielhusar/_dev/_git/TSB/templates/3.6-Credit-Card-Recent-transactions.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_account-detail.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/3.9-Loan-Recent-transactions.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_card-detail.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_loan-detail.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/sub-nav/_small.scss",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/sub-nav/_large.scss",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/sub-nav/_medium.scss",
+		"/Users/danielhusar/_dev/_git/TSB/templates/3.4.3-Statements-Sign-up-Text-confirmation.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/dashboard/_emergency-cash.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/statements/_not-verified.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/3.3-Statements-Not-verified.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/statements/_text-confirmation.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/3.4-Statements.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/base/_layout.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/sass/base/components/_box.scss",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/statements/_message.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/static/_question.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/3.2-Current-Account-Pending-transactions.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/3.3.2-Statements-Verified.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/3.3.3-Statements-Postal-confirmation.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/messages/_messages.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/statements/_verified.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_subnav.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/statements/_user-not-signed-up.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/sepa/_what-are-uncleared-funds.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/sepa/_why-i-see.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_whats-iban.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/3.1.4-View-BIC-IBAN-Text-confirmation.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_whats-bic.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/app/validate.js",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_view-bic-iban-confirmation.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/app/translations.js",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_view-bic-iban.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/modules/account.js",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_cheque-search.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/app/events.js",
+		"/Users/danielhusar/_dev/_git/TSB/sass/style.scss",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/account/_large.scss",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/account/_medium.scss",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/account/_small.scss",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/standing-order/_create-order.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/base/_small.scss",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/plugins/external/bootstrap-datepicker.js",
+		"/Users/danielhusar/_dev/_git/TSB/sass/base/components/_layout.scss",
+		"/Users/danielhusar/_dev/_git/TSB/sass/base/_variables.scss",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/base/_medium.scss",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/quick-payment/_quick-payment.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/protect-yourself/_protect-yourself.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_account.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/login/_small.scss",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/need-help/_need-help.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/logout/_automatically.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_subnav-4-items.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/test/tests/events.js",
+		"/Users/danielhusar/_dev/_git/TSB/test/tests/modules/transfer.js",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/plugins/external/jQuery.lazyLoad.js",
+		"/Users/danielhusar/events.js",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/app/init.js",
+		"/Users/danielhusar/_dev/_git/TSB/test/tests/modules/account.js",
+		"/Users/danielhusar/_dev/_git/TSB/test/index.html",
+		"/Users/danielhusar/_dev/_git/TSB/public/test/tests/globals.js",
+		"/Users/danielhusar/_dev/_git/TSB/public/test/index.html",
+		"/Users/danielhusar/_dev/_git/TSB/public/test/tests/events.js",
+		"/Users/danielhusar/_dev/_git/TSB/.gitignore",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/transfer/_transfer-between-my-accounts.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/statements/_text-alerts-sign-up.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/modules/transfer.js",
+		"/Users/danielhusar/_dev/_git/TSB/test/tests/modules/quick-payment.js",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/modules/quick-payment.js",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/modules/mobile-top-up.js",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/quick-add/_quick-add.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/test/tests/modules/cookie.js",
+		"/Users/danielhusar/_dev/_git/TSB/test/tests/modules/login.js",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/modules/cookie.js",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/modules/login.js",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/app/global.js",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/messages/_message-content.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_subnav-2-items.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_account-overview-card.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_account-overview-loan.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/account/_account-overview.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/test/tests/globals.js",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/app/helpers.js",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/dashboard/_change-account-name.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/3.5.1-Cheque-search.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/test/tests/modules/quick-add.js",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/mobile-topup/_mobile-topup.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/dashboard/_mobile-app.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/app/settings.js",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/dashboard/_large.scss",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/dashboard/_medium.scss",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/dashboard/_small.scss",
+		"/Users/danielhusar/_dev/_git/TSB/sass/base/components/_typography.scss",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/dashboard/_quick-pay.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/dashboard/_request-an-interest-certificate.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/dashboard/_search-cheques.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/dashboard/_text-alerts.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/dashboard/_order-a-cheque-book.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/dashboard/_credit-interrest.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/README.md",
+		"/Users/danielhusar/_dev/_git/TSB/templates/3.5-Things-you-can-do-More.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/sass/base/components/_tables.scss",
+		"/Users/danielhusar/_dev/_git/TSB/sass/base/components/_headings.scss",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/dashboard/search-cheques.tpltext-alerts.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/modules/login/_login-step1.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/sass/base/_boilerplate.scss",
+		"/Users/danielhusar/_dev/_git/TSB/templates/base/_variables.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/templates/1.6-First-time-login-Step-2.tpl",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/quick-add/_small.scss",
+		"/Users/danielhusar/_dev/_git/TSB/public/js/libraries/Pernament TSB - Quick Add.csv",
+		"/Users/danielhusar/_dev/_git/TSB/sass/modules/mobile-top-up/_small.scss"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"btn-prev",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"main-direct",
+			"quote",
+			"$(\"#btn-pay-now\")",
+			"disabled",
+			"quoteCheckout",
+			"quo",
+			"additionalMethods",
+			"quoteCheckout",
+			"$(\"#main-direct-debit\")",
+			"submitHandler",
+			"alert",
+			"$.validator",
+			"validate",
+			"document.main",
+			"iban",
+			"quote.payment.bankDetails.accountNumber",
+			"iban",
+			"data-validate=\"sms-confirmation\"",
+			".zoom",
+			"custom-date",
+			"date",
+			"same",
+			"data-message",
+			"deleteItem",
+			"data-toggle",
+			"radio1",
+			"disableArea",
+			"data-showme",
+			"[data-radio-show",
+			"data-tab-for",
+			"notNull",
+			"change",
+			"label",
+			"radio",
+			"[data-label]",
+			"hiddenRadio",
+			"scroll",
+			"change.tsb",
+			"errorContent",
+			"disabled",
+			"scroll",
+			"simple",
+			"password",
+			"passw",
+			"hidden",
+			"alone",
+			"two-lines",
+			"length",
+			"full-width",
+			"footer",
+			"btn-amend",
+			"icon-amend",
+			"icon-arrow-right2",
+			"addMustacheTemplate",
+			"no-padding",
+			"tel:",
+			"text-alt",
+			"text-al",
+			"info",
+			"alt",
+			"expect",
+			"narrow",
+			"space",
+			"alt-btn",
+			"debounce",
+			"text",
+			"smoo",
+			"								</",
+			"trigger",
+			"static",
+			"_messages.tpl",
+			"module-messages",
+			"less",
+			"info",
+			"-transparent",
+			"trans",
+			"date",
+			"data-show",
+			"toggle",
+			"data-show",
+			"focus",
+			"success",
+			"info",
+			"form-hea",
+			"child",
+			"button",
+			"pdf",
+			".paging_full_numbers a.paginate_button",
+			"dataTables_info",
+			"class=\"money\"",
+			"money",
+			"#3A3A3A",
+			"table.header-blk th",
+			"}\n",
+			"wrappe",
+			"disa",
+			"4.3.2-Add-a-payee.tpl",
+			"lt",
+			"active",
+			"inner",
+			"HASCANVAS",
+			"!important",
+			"TIPNS",
+			".qtip-tip",
+			"TIPNS",
+			"div",
+			"qtip-tip",
+			"hints",
+			"border-ra",
+			"mobile-number",
+			"cons",
+			".full-width",
+			"hidden",
+			"welcome",
+			"APP.",
+			"TSB.",
+			"APP.",
+			"cookieNotification",
+			"cookie",
+			"APP.",
+			"vf.device",
+			"ozh_sampleoptions",
+			"contact-form",
+			"<p>",
+			"input",
+			"inden",
+			"folder",
+			"prompt_add_folder"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"btn-prev",
+			"tel://",
+			"class=\"currency\"",
+			"currency",
+			"TSB.",
+			"APP.",
+			"Application.",
+			"Application",
+			"nastavenia",
+			"",
+			"$",
+			"TSB",
+			"APP",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 237.0
+	},
+	"output.find_results":
+	{
+		"height": 435.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true
+}
