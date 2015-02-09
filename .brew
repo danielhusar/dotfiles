@@ -24,17 +24,48 @@ brew tap josegonzalez/homebrew-php
 
 # Install everything else
 brew install ack
+brew install ffmpeg
+brew install gifsicle
 brew install git
+brew install git-extras
+brew install hub
+brew install imagemagick
+brew install ntfs-3g
+brew install phantomjs
 brew install rename
 brew install tree
-brew install phantomjs
-brew install hub
-brew install git-extras
-brew install ntfs-3g
 
-#cask
+# Cask
 brew tap phinze/homebrew-cask
 brew install brew-cask
+
+# Programs
+brew cask install 1password
+brew cask install alfred
+brew cask install atom
+brew cask install dropbox
+brew cask install firefox
+brew cask install github
+brew cask install google-chrome
+brew cask install imageoptim
+brew cask install lastfm
+brew cask install licecap
+brew cask install litecoin
+brew cask install mailbox
+brew cask install mou
+brew cask install openoffice
+brew cask install opera
+brew cask install sourcetree
+brew cask install steam
+brew cask install subtitles
+brew cask install teamspeak-client
+brew cask install totalfinder
+brew cask install totalterminal
+brew cask install utorrent
+brew cask install virtualbox
+brew cask install vlc
+
+# Quick view plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package && qlmanage -r
 
 

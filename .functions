@@ -6,12 +6,10 @@ if [ $? -eq 0 ]; then
   }
 fi
 
-
 # Create a new directory and enter it
 function md() {
 	mkdir -p "$@" && cd "$@"
 }
-
 
 # find shorthand
 function f() {
@@ -32,12 +30,10 @@ function server() {
 	python -c $'import SimpleHTTPServer;\nmap = SimpleHTTPServer.SimpleHTTPRequestHandler.extensions_map;\nmap[""] = "text/plain";\nfor key, value in map.items():\n\tmap[key] = value + ";charset=UTF-8";\nSimpleHTTPServer.test();' "$port";
 }
 
-
 # Copy w/ progress
 cp_p () {
   rsync -WavP --human-readable --progress $1 $2
 }
-
 
 # Test if HTTP compression (RFC 2616 + SDCH) is enabled for a given URL.
 # Send a fake UA string for sites that sniff it instead of using the Accept-Encoding header. (Looking at you, ajax.googleapis.com!)
@@ -55,7 +51,6 @@ function json() {
 		python -mjson.tool <<< "$*" | pygmentize -l javascript
 	fi
 }
-
 
 # get gzipped size
 function gz() {
@@ -107,7 +102,6 @@ function extract() {
 	fi
 }
 
-
 # animated gifs from any video
 # from alex sexton   gist.github.com/SlexAxton/4989674
 gifify() {
@@ -131,13 +125,6 @@ function phpserver() {
   local ip=$(ipconfig getifaddr en1)
   sleep 1 && open "http://${ip}:${port}/" &
   php -S "${ip}:${port}"
-}
-
-# Install Grunt plugins and add them as `devDependencies` to `package.json`
-# Usage: `gi contrib-watch contrib-uglify zopfli`
-function gi() {
-  local IFS=,
-  eval npm install --save-dev grunt-{"$*"}
 }
 
 # `s` with no arguments opens the current directory in Sublime Text, otherwise
