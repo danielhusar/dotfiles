@@ -45,9 +45,11 @@ brew cask install alfred
 brew cask install atom
 brew cask install dropbox
 brew cask install firefox
+brew cask install flash-player
 brew cask install github
 brew cask install google-chrome
 brew cask install imageoptim
+brew cask install karabiner
 brew cask install lastfm
 brew cask install licecap
 brew cask install litecoin
@@ -55,15 +57,18 @@ brew cask install mailbox
 brew cask install mou
 brew cask install openoffice
 brew cask install opera
+brew cask install perian
 brew cask install sourcetree
 brew cask install steam
 brew cask install subtitles
 brew cask install teamspeak-client
 brew cask install totalfinder
 brew cask install totalterminal
+brew cask install tvshows
 brew cask install utorrent
 brew cask install virtualbox
 brew cask install vlc
+brew cask install web-sharing
 
 # Quick view plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package && qlmanage -r
