@@ -56,6 +56,8 @@ brew cask install licecap
 brew cask install litecoin
 brew cask install mailbox
 brew cask install mou
+brew cask install node
+brew cask install node-webkit
 brew cask install openoffice
 brew cask install opera
 brew cask install perian
