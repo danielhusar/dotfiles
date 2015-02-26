@@ -173,7 +173,7 @@ function np() {
 function push() {
   git add .
   git commit -m $1
-  git push origin master
+  git push origin master --tags
 }
 
 # `tre` is a shorthand for `tree` with hidden files and color enabled, ignoring

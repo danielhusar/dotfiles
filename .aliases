@@ -13,6 +13,7 @@ alias vps="ssh ubuntu@danielhusar.sk"
 alias chrome="open -a Google\ Chrome --args --disable-web-security"
 alias canary="open -a Google\ Chrome\ Canary --disable-web-security"
 alias h="history"
+alias git=hub
 
 #update dotfiles
 alias dotfiles="~/Dev/bash/dotfiles/bootstrap.sh"
