@@ -1,6 +1,0 @@
-npm install -g gulp
-npm install -g grunt
-npm install -g mocha
-npm install -g yo
-npm install -g vtop
-npm install -g bower
