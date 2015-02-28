@@ -64,6 +64,7 @@ brew cask install openoffice
 brew cask install opera
 brew cask install perian
 brew cask install sourcetree
+brew cask install smoothmouse
 brew cask install steam
 brew cask install subtitles
 brew cask install teamspeak-client
