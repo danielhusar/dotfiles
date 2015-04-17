@@ -79,6 +79,13 @@ brew cask install web-sharing
 # Quick view plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package && qlmanage -r
 
-
 # Remove outdated versions from the cellar
 brew cleanup
+
+# Sublime simlinks
+cd ~/Library/Application\ Support/Sublime\ Text\ 3
+mv ./Installed\ Packages ./Installed\ Packages1
+mv ./Packages ./Packages1
+ln -s ~/Dropbox/_sync/Sublime\ Text\ 3/Packages ./Packages
+ln -s ~/Dropbox/_sync/Sublime\ Text\ 3/Installed\ Packages ./Installed\ Packages
+cd
