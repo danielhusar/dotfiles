@@ -15,9 +15,11 @@ function gundo() {
 
 # Git push changes
 function gpush() {
+	branch_name="$(git symbolic-ref HEAD 2>/dev/null)"
+  branch_name=${branch_name##refs/heads/}
   git add .
   git commit -m $1
-  git push origin master --tags
+  git push origin $branch_name --tags
 }
 
 # Git pull changes
