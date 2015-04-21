@@ -198,9 +198,9 @@ function phpserver() {
 # opens the given location
 function s() {
   if [ $# -eq 0 ]; then
-    slt .
+    open -a "Sublime Text" .
   else
-    slt "$@"
+    open -a "Sublime Text" "$@"
   fi
 }
 
