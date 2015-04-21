@@ -87,7 +87,7 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 brew cleanup
 
 # Sublime simlinks
-ln -s "/Applications/Sublime Text 3.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 cd ~/Library/Application\ Support/Sublime\ Text\ 3
 mv ./Installed\ Packages ./Installed\ Packages1
 mv ./Packages ./Packages1
