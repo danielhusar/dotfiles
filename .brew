@@ -86,6 +86,12 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 # Remove outdated versions from the cellar
 brew cleanup
 
+# Node
+sudo npm install --global trash
+sudo npm install --global gulp
+sudo npm install --global grunt
+sudo npm install --global mocha
+
 # Sublime simlinks
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 cd ~/Library/Application\ Support/Sublime\ Text\ 3
