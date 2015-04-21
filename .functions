@@ -6,10 +6,71 @@ if [ $? -eq 0 ]; then
   }
 fi
 
+### GIT STUFF
+
+# Git push changes
+function gundo() {
+ git push -f origin HEAD^:master
+}
+
+# Git push changes
+function gpush() {
+  git add .
+  git commit -m $1
+  git push origin master --tags
+}
+
+# Git pull changes
+function gpull() {
+	if [ $# -eq 0 ]; then
+    git pull origin master
+  else
+    git pull origin "$@"
+  fi
+}
+
+# Git pull changes
+function gpushb() {
+	branch_name="$(git symbolic-ref HEAD 2>/dev/null)"
+  branch_name=${branch_name##refs/heads/}
+  git push origin $branch_name --force
+}
+
+# Git rebase
+function grebase() {
+	if [ $# -eq 0 ]; then
+    git rebase master
+  else
+    git rebase -i HEAD~"$1"
+  fi
+}
+
+# Git pull request
+function gpr() {
+  git pull-request -m $1
+}
+
+# Git commit
+function gcommit() {
+  git commit -a -m $1
+}
+
+# Git create branch
+function gcheckout() {
+  git checkout -b $1
+}
+
+# Git checkout branch
+function gbranch() {
+  git checkout $1
+}
+
+
 # Create a new directory and enter it
 function md() {
 	mkdir -p "$@" && cd "$@"
 }
+
 
 # find shorthand
 function f() {
@@ -23,17 +84,19 @@ cdf() {  # short for cdfinder
 
 # Start an HTTP server from a directory, optionally specifying the port
 function server() {
-	local port="${1:-8000}";
-	sleep 1 && open "http://localhost:${port}/" &
+	local port="${1:-8000}"
+	open "http://localhost:${port}/"
 	# Set the default Content-Type to `text/plain` instead of `application/octet-stream`
 	# And serve everything as UTF-8 (although not technically correct, this doesn’t break anything for binary files)
-	python -c $'import SimpleHTTPServer;\nmap = SimpleHTTPServer.SimpleHTTPRequestHandler.extensions_map;\nmap[""] = "text/plain";\nfor key, value in map.items():\n\tmap[key] = value + ";charset=UTF-8";\nSimpleHTTPServer.test();' "$port";
+	python -c $'import SimpleHTTPServer;\nmap = SimpleHTTPServer.SimpleHTTPRequestHandler.extensions_map;\nmap[""] = "text/plain";\nfor key, value in map.items():\n\tmap[key] = value + ";charset=UTF-8";\nSimpleHTTPServer.test();' "$port"
 }
+
 
 # Copy w/ progress
 cp_p () {
   rsync -WavP --human-readable --progress $1 $2
 }
+
 
 # Test if HTTP compression (RFC 2616 + SDCH) is enabled for a given URL.
 # Send a fake UA string for sites that sniff it instead of using the Accept-Encoding header. (Looking at you, ajax.googleapis.com!)
@@ -51,6 +114,7 @@ function json() {
 		python -mjson.tool <<< "$*" | pygmentize -l javascript
 	fi
 }
+
 
 # get gzipped size
 function gz() {
@@ -102,6 +166,7 @@ function extract() {
 	fi
 }
 
+
 # animated gifs from any video
 # from alex sexton   gist.github.com/SlexAxton/4989674
 gifify() {
@@ -137,16 +202,6 @@ function s() {
   fi
 }
 
-# `a` with no arguments opens the current directory in Atom Editor, otherwise
-# opens the given location
-function a() {
-	if [ $# -eq 0 ]; then
-		atom .;
-	else
-		atom "$@";
-	fi;
-}
-
 # `o` with no arguments opens current directory, otherwise opens the given
 # location
 function o() {
@@ -169,22 +224,19 @@ function np() {
   git push origin master --tags
 }
 
-# git push changes
-function push() {
-  git add .
-  git commit -m $1
-  git push origin master --tags
+function mp4(){
+  ffmpeg -i "$1" -c:v libx264 -filter:v scale="${2}:trunc(ow/a/2)*2" -an output.mp4
+  ffmpeg -i "$1" -c:v libvpx -crf 30 -b:v 1M -filter:v scale="${2}:trunc(ow/a/2)*2" -an output.webm
+  ffmpeg -i output.mp4 -ss 00:00:1 -f image2 -vframes 1 output.png
 }
 
-# `tre` is a shorthand for `tree` with hidden files and color enabled, ignoring
-# the `.git` directory, listing directories first. The output gets piped into
-# `less` with options to preserve color and line numbers, unless the output is
-# small enough for one screen.
-function tre() {
-	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
+# git push changes
+function webm() {
+  ffmpeg -i output.mp4 -c:v libvpx -crf 20 -b:v 1M -c:a libvorbis output.webm
 }
+
 
 # get file with slovak proxy
 function get(){
-	ssh ubuntu@195.210.29.18 "wget -O - $1" >> $(basename $1);
+	vps "wget -O - $1" >> $(basename $1);
 }
