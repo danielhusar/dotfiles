@@ -11,25 +11,20 @@ alias bower="noglob bower"
 alias g="gulp"
 alias vps="ssh ubuntu@danielhusar.sk"
 alias chrome="open -a Google\ Chrome --args --disable-web-security"
-alias canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary --disable-web-security &"
+alias canary="open -a Google\ Chrome\ Canary --disable-web-security"
 alias git=hub
-alias pr="git pull-request -m '$1'"
 
 #update dotfiles
 alias dotfiles="~/Dev/bash/dotfiles/bootstrap.sh"
 
-# programs
-alias slt='open -a "Sublime Text"'
-# also/or do this:
 # ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
 alias r="npm repo $1"
-
 alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
 
 # be nice
 alias please=sudo
-alias hosts='sudo open -a "Sublime Text 2" /etc/hosts'
+alias hosts='sudo s /etc/hosts'
 
 
 # Detect which `ls` flavor is in use
@@ -100,7 +95,6 @@ alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; rm -rfv ~/.Trash"
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
-
 # PlistBuddy alias, because sometimes `defaults` just doesn’t cut it
 alias plistbuddy="/usr/libexec/PlistBuddy"
 
@@ -109,7 +103,8 @@ for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 	alias "$method"="lwp-request -m '$method'"
 done
 
-# Stuff I never really use but cannot delete either because of http://xkcd.com/530/
-alias stfu="osascript -e 'set volume output muted true'"
-alias pumpitup="osascript -e 'set volume 10'"
-alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
+# Faster npm for Europeans
+command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
+
+# Get week number
+alias week='date +%V'
