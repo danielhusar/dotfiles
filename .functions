@@ -71,8 +71,9 @@ function gbranch() {
 function ghelp() {
   echo "gundo # undo latest push changes"
   echo "gpush # add all files and push"
-  echo "gpull # pull cahnges from master or specified branch"
-  echo "grebase # rebase with master or with head by specifing commits"
+  echo "gfpush # force push"
+  echo "gpull # pull changes from master or specified branch"
+  echo "grebase # rebase with master or interactive with head by specifing number of commits"
   echo "gpr # create pull request"
   echo "gcommit # add all files and commit them"
   echo "gcheckout # create branch"
