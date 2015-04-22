@@ -8,18 +8,25 @@ fi
 
 ### GIT STUFF
 
-# Git push changes
+# Git undo push changes
 function gundo() {
  git push -f origin HEAD^:master
 }
 
-# Git push changes
+# Git add all files and push changes
 function gpush() {
   branch_name="$(git symbolic-ref HEAD 2>/dev/null)"
   branch_name=${branch_name##refs/heads/}
   git add .
   git commit -m $1
   git push origin $branch_name --tags
+}
+
+# Git force pull changes
+function gfpush() {
+  branch_name="$(git symbolic-ref HEAD 2>/dev/null)"
+  branch_name=${branch_name##refs/heads/}
+  git push origin $branch_name --force
 }
 
 # Git pull changes
@@ -29,13 +36,6 @@ function gpull() {
   else
     git pull origin "$@"
   fi
-}
-
-# Git pull changes
-function gpushb() {
-  branch_name="$(git symbolic-ref HEAD 2>/dev/null)"
-  branch_name=${branch_name##refs/heads/}
-  git push origin $branch_name --force
 }
 
 # Git rebase
@@ -65,6 +65,18 @@ function gcheckout() {
 # Git checkout branch
 function gbranch() {
   git checkout $1
+}
+
+# Git print all functions
+function ghelp() {
+  echo "gundo # undo latest push changes"
+  echo "gpush # add all files and push"
+  echo "gpull # pull cahnges from master or specified branch"
+  echo "grebase # rebase with master or with head by specifing commits"
+  echo "gpr # create pull request"
+  echo "gcommit # add all files and commit them"
+  echo "gcheckout # create branch"
+  echo "gbranch # switch to branch"
 }
 
 
