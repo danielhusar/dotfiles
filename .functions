@@ -57,6 +57,12 @@ function gcommit() {
   git commit -a -m $1
 }
 
+# Git commit
+function gamend() {
+  git add --all
+  git commit --amend
+}
+
 # Git create branch
 function gcheckout() {
   git checkout -b $1
@@ -76,6 +82,7 @@ function ghelp() {
   echo "grebase # rebase with master or interactive with head by specifing number of commits"
   echo "gpr # create pull request"
   echo "gcommit # add all files and commit them"
+  echo "gamend # amend the last commit
   echo "gcheckout # create branch"
   echo "gbranch # switch to branch"
 }
