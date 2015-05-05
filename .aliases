@@ -26,7 +26,7 @@ alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v exten
 
 # be nice
 alias please=sudo
-alias hosts='sudo s /etc/hosts'
+alias hosts='open -a "Sublime Text" /etc/hosts'
 
 
 # Detect which `ls` flavor is in use
