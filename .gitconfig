@@ -1,5 +1,6 @@
 [core]
 	excludesfile = /Users/danielhusar/.gitignore_global
+	pager = `brew --prefix git`/share/git-core/contrib/diff-highlight/diff-highlight | less
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
