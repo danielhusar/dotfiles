@@ -91,3 +91,8 @@ sudo npm install --global trash
 sudo npm install --global gulp
 sudo npm install --global grunt
 sudo npm install --global mocha
+sudo npm install --global yo
+sudo npm install --global vtop
+sudo npm install --global bower
+sudo npm install --global generator-simple-node-package
+sudo npm install --global generator-gulp-plugin-boilerplate
