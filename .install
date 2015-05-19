@@ -91,12 +91,3 @@ sudo npm install --global trash
 sudo npm install --global gulp
 sudo npm install --global grunt
 sudo npm install --global mocha
-
-# Sublime simlinks
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
-cd ~/Library/Application\ Support/Sublime\ Text\ 3
-mv ./Installed\ Packages ./Installed\ Packages1
-mv ./Packages ./Packages1
-ln -s ~/Dropbox/_sync/Sublime\ Text\ 3/Packages ./Packages
-ln -s ~/Dropbox/_sync/Sublime\ Text\ 3/Installed\ Packages ./Installed\ Packages
-cd
