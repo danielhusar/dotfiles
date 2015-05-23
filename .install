@@ -96,3 +96,6 @@ sudo npm install --global vtop
 sudo npm install --global bower
 sudo npm install --global generator-simple-node-package
 sudo npm install --global generator-gulp-plugin-boilerplate
+
+# Fix permissions
+sudo chown -R $(whoami) ~/.npm
