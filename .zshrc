@@ -46,7 +46,7 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct
 
 # Customize to your needs...
-export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:$(brew --prefix coreutils)/libexec/gnubin:$HOME/.rvm/bin:$HOME/.rbenv/bin
+export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:$(brew --prefix coreutils)/libexec/gnubin:$HOME/.rbenv/bin
 
 # Load ~/.extra, ~/.bash_prompt, ~/.exports, ~/.aliases and ~/.functions
 # ~/.extra can be used for settings you don’t want to commit
@@ -70,5 +70,3 @@ export LANG="en_US"
 # Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2)" scp sftp ssh
 
-# RVM
-source /Users/danielhusar/.rvm/scripts/rvm
