@@ -99,3 +99,9 @@ sudo npm install --global generator-gulp-plugin-boilerplate
 
 # Fix permissions
 sudo chown -R $(whoami) ~/.npm
+
+# Install pow
+curl get.pow.cx | sh
+
+# Install rvm
+curl -sSL https://get.rvm.io | bash -s stable
