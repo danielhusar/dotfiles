@@ -103,5 +103,5 @@ sudo chown -R $(whoami) ~/.npm
 # Install pow
 curl get.pow.cx | sh
 
-# Install rvm
-curl -sSL https://get.rvm.io | bash -s stable
+# Install rbenv
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
