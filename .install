@@ -82,7 +82,7 @@ brew cask install vlc
 brew cask install web-sharing
 
 # Quick view plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package && qlmanage -r
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package qlimagesize && qlmanage -r
 
 # Remove outdated versions from the cellar
 brew cleanup
