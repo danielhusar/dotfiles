@@ -19,8 +19,6 @@ alias rm='rm -i'
 #update dotfiles
 alias dotfiles="~/Dev/bash/dotfiles/bootstrap.sh"
 
-# ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
-
 alias r="npm repo $1"
 alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
 
