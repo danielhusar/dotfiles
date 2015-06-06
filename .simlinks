@@ -6,3 +6,6 @@ mv ./Packages ./Packages1
 ln -s ~/Dropbox/_sync/Sublime\ Text\ 3/Packages ./Packages
 ln -s ~/Dropbox/_sync/Sublime\ Text\ 3/Installed\ Packages ./Installed\ Packages
 cd
+
+
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
