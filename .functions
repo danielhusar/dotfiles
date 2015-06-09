@@ -26,7 +26,7 @@ function gpush() {
 function gfpush() {
   branch_name="$(git symbolic-ref HEAD 2>/dev/null)"
   branch_name=${branch_name##refs/heads/}
-  git push origin $branch_name --force
+  git push origin $branch_name --force-with-lease
 }
 
 # Git pull changes
@@ -40,11 +40,7 @@ function gpull() {
 
 # Git rebase
 function grebase() {
-  if [ $# -eq 0 ]; then
-    git rebase master
-  else
-    git rebase -i HEAD~"$1"
-  fi
+  git rebase -i origin/master
 }
 
 # Git pull request
@@ -79,7 +75,7 @@ function ghelp() {
   echo "gpush # add all files and push"
   echo "gfpush # force push"
   echo "gpull # pull changes from master or specified branch"
-  echo "grebase # rebase with master or interactive with head by specifing number of commits"
+  echo "grebase # interactive rebase with master"
   echo "gpr # create pull request"
   echo "gcommit # add all files and commit them"
   echo "gamend # amend the last commit"
