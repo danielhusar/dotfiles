@@ -107,7 +107,7 @@ curl get.pow.cx | sh
 # Install rbenv
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-git clone -- https://github.com/carsomyr/rbenv-bundler.git ~/.rbenv/plugins/bundler
+git clone https://github.com/carsomyr/rbenv-bundler.git ~/.rbenv/plugins/bundler
 
 # Bundler
 sudo gem install bundler
