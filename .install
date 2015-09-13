@@ -46,6 +46,7 @@ brew cask install 1password
 brew cask install airmail-amt
 brew cask install alfred
 brew cask install atom
+brew cask install catch
 brew cask install dropbox
 brew cask install firefox
 brew cask install flash-player
