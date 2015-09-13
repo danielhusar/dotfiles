@@ -55,8 +55,6 @@ for file in ~/.{extra,exports,aliases,functions}; do
 done
 unset file
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
 # init z   https://github.com/rupa/z
 . ~/.scripts/z.sh
 
