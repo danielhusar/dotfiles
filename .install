@@ -31,6 +31,8 @@ brew install git
 brew install git-extras
 brew install hub
 brew install imagemagick
+brew install node
+brew install nvm
 brew install ntfs-3g
 brew install phantomjs
 brew install rename
@@ -61,7 +63,6 @@ brew cask install limechat
 brew cask install litecoin
 brew cask install mailbox
 brew cask install mou
-brew cask install node
 brew cask install node-webkit
 brew cask install openoffice
 brew cask install opera
