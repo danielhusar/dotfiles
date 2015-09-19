@@ -78,7 +78,6 @@ brew cask install teamspeak-client
 brew cask install totalfinder
 brew cask install totalterminal
 brew cask install transmit
-brew cask install tvshows
 brew cask install utorrent
 brew cask install virtualbox
 brew cask install vlc
