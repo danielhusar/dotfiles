@@ -6,42 +6,34 @@ brew update
 # Upgrade any already-installed formulae
 brew upgrade
 
-# Install GNU core utilities (those that come with OS X are outdated)
-brew install coreutils
-
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-brew install findutils
-
-# Install Bash 4
-brew install bash
-
-# Install wget with IRI support
-brew install wget --enable-iri
-
-# Install more recent versions of some OS X tools
+# Taps
 brew tap homebrew/dupes
-brew install homebrew/dupes/grep
+brew tap phinze/homebrew-cask
 brew tap josegonzalez/homebrew-php
 
-# Install everything else
+# Cli
+brew install coreutils
+brew install findutils
 brew install ack
+brew install bash
+brew install brew-cask
 brew install ffmpeg
 brew install gifsicle
 brew install git
 brew install git-extras
+brew install homebrew/dupes/grep
 brew install hub
 brew install imagemagick
 brew install node
 brew install nvm
 brew install ntfs-3g
 brew install phantomjs
+brew install rbenv
+brew install ruby-build
 brew install rename
 brew install tree
 brew install youtube-dl
-
-# Cask
-brew tap phinze/homebrew-cask
-brew install brew-cask
+brew install wget --enable-iri
 
 # Programs
 brew cask install 1password
@@ -84,7 +76,17 @@ brew cask install vlc
 brew cask install web-sharing
 
 # Quick view plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package qlimagesize && qlmanage -r
+brew cask install qlcolorcode 
+brew cask install qlstephen 
+brew cask install qlmarkdown 
+brew cask install quicklook-json 
+brew cask install qlprettypatch 
+brew cask install quicklook-csv 
+brew cask install betterzipql 
+brew cask install webp-quicklook 
+brew cask install suspicious-package 
+brew cask install qlimagesize
+qlmanage -r
 
 # Remove outdated versions from the cellar
 brew cleanup
@@ -105,11 +107,6 @@ sudo chown -R $(whoami) ~/.npm
 
 # Install pow
 curl get.pow.cx | sh
-
-# Install rbenv
-git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
-git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-git clone https://github.com/carsomyr/rbenv-bundler.git ~/.rbenv/plugins/bundler
 
 # Bundler
 sudo gem install bundler
