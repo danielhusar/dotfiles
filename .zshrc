@@ -8,12 +8,13 @@ plugins=(bower brew git git-extras github node npm rails)
 source $ZSH/oh-my-zsh.sh
 unsetopt correct
 
-export PATH=/bin:$PATH
-export PATH=/usr/bin:$PATH
-export PATH=/usr/sbin:$PATH
-export PATH=/sbin:$PATH
-export PATH=/usr/local/bin:$PATH
+# PATH
 export PATH=/usr/local/git/bin:$PATH
+export PATH=/usr/local/bin:$PATH
+export PATH=/sbin:$PATH
+export PATH=/usr/sbin:$PATH
+export PATH=/usr/bin:$PATH
+export PATH=/bin:$PATH
 export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 
 for file in ~/.{extra,exports,aliases,functions}; do
