@@ -1,19 +1,13 @@
-# Easier navigation: .., ..., ~ and -
 alias ..="cd .."
-alias cd..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
-alias dev="cd ~/_dev"
 alias bower="noglob bower"
-alias g="gulp"
 alias vps="ssh ubuntu@danielhusar.sk"
 alias chrome="open -a Google\ Chrome --args --disable-web-security"
 alias canary="open -a Google\ Chrome\ Canary --disable-web-security"
 alias git=hub
-
 alias rm='rm -i'
 
 #update dotfiles
