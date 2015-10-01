@@ -3,7 +3,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="prose"
 DISABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
-plugins=(bower brew git git-extras github node npm rails)
+plugins=(brew git git-extras github node npm rails)
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct
