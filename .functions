@@ -135,7 +135,6 @@ function get(){
 }
 
 function process(){
-  width = $2
   ffmpeg -i input.mp4 -c:v libx264 -crf 20 -filter:v scale="${2}:trunc(ow/a/2)*2" -an "$1-2x.mp4"
   ffmpeg -i input.mp4 -c:v libx264 -crf 20 -filter:v scale="${2}/2:trunc(ow/a/2)*2" -an "$1.mp4"
   ffmpeg -i "$1-2x.mp4" -ss 00:00:0 -f image2 -vframes 1 "$1-2x.png"
