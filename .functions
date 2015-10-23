@@ -134,9 +134,20 @@ function get(){
   vps "wget -O - $1" >> $(basename $1);
 }
 
+# Resize video
 function process(){
   ffmpeg -i input.mp4 -c:v libx264 -crf 20 -filter:v scale="${2}:trunc(ow/a/2)*2" -an "$1-2x.mp4"
   ffmpeg -i input.mp4 -c:v libx264 -crf 20 -filter:v scale="${2}/2:trunc(ow/a/2)*2" -an "$1.mp4"
   ffmpeg -i "$1-2x.mp4" -ss 00:00:0 -f image2 -vframes 1 "$1-2x.png"
   ffmpeg -i "$1.mp4" -ss 00:00:0 -f image2 -vframes 1 "$1.png"
+}
+
+# Crop image
+function img(){
+  height="$(sips -g pixelHeight $1 | tail -n1 | cut -d' ' -f4)"
+  name="$(basename "$1" .jpg)"
+  convert "$1" -gravity center -quality 70 -crop "2800x${height}+0+0" "${name}-xlg.jpg"
+  convert "$1" -gravity center -quality 70 -crop "2048x${height}+0+0" "${name}-lg.jpg"
+  convert "$1" -gravity center -quality 70 -crop "1534x${height}+0+0" "${name}-md.jpg"
+  convert "$1" -gravity center -quality 70 -crop "960x${height}+0+0" "${name}-sm.jpg"
 }
