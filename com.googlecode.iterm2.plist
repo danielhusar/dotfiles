@@ -225,6 +225,16 @@
 	<string>87EA96EE-21D3-4C78-BBFA-97FE2F8173EC</string>
 	<key>DimOnlyText</key>
 	<true/>
+	<key>FlashTabBarInFullscreen</key>
+	<true/>
+	<key>HideActivityIndicator</key>
+	<false/>
+	<key>HideMenuBarInFullscreen</key>
+	<true/>
+	<key>HideTabCloseButton</key>
+	<false/>
+	<key>HideTabNumber</key>
+	<true/>
 	<key>Hotkey</key>
 	<true/>
 	<key>HotkeyChar</key>
@@ -233,6 +243,8 @@
 	<integer>10</integer>
 	<key>HotkeyModifiers</key>
 	<integer>1048840</integer>
+	<key>JobName</key>
+	<false/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSColorPanelMode</key>
@@ -278,11 +290,11 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>858 362 787 403 0 0 2560 1417 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>659 497 606 456 0 0 2560 1417 </string>
+	<string>659 613 606 456 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 789 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>692 487 955 482 0 0 2560 1417 </string>
+	<string>563 608 570 452 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1656,6 +1668,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/danielhusar/Dev/bash/dotfiles</string>
+	<key>PromptOnQuit</key>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1668,10 +1682,18 @@
 	<date>2016-04-21T10:46:59Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>ShowFullScreenTabBar</key>
+	<true/>
+	<key>ShowPaneTitles</key>
+	<true/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.46175380608974359</real>
+	<real>0.39419571314102564</real>
+	<key>TabStyle</key>
+	<integer>0</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
+	<key>WindowNumber</key>
+	<false/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
