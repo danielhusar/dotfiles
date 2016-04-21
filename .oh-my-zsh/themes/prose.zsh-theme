@@ -19,10 +19,10 @@ function box_name {
 }
 
 PROMPT='
-%{$fg_bold[blue]%}%n%{$reset_color%} at %{$fg_bold[green]%}${PWD/#$HOME/~}%{$reset_color%}$(hg_prompt_info)$(git_prompt_info)
-$(virtualenv_info)$ '
+%{$fg_bold[blue]%}${PWD/#$HOME/~}%{$reset_color%}$(hg_prompt_info)$(git_prompt_info)
+$(virtualenv_info)❯ '
 
-ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[magenta]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[yellow]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%}!"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[green]%}?"
