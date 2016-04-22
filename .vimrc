@@ -3,9 +3,9 @@ set nocompatible
 
 " Set syntax highlighting options.
 set t_Co=256
-set background=dark
+" set background=dark
 syntax on
-colorscheme molokai
+colorscheme Tomorrow-Night-Eighties
 
 " Enabled later, after Pathogen
 filetype off
