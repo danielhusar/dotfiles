@@ -37,6 +37,7 @@ brew install wget --enable-iri
 
 # Programs
 brew cask install 1password
+brew cask install aerial
 brew cask install airmail-amt
 brew cask install alfred
 brew cask install atom
