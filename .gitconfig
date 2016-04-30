@@ -10,3 +10,6 @@
 [user]
 	name = Daniel Husar
 	email = dano.husar@gmail.com
+[branch "master"]
+  remote = origin
+  merge = refs/heads/master
