@@ -11,12 +11,12 @@ unsetopt correct
 # PATH
 export PATH=~/.rbenv/bin:$PATH
 export PATH=~/.rbenv/shims:$PATH
-export PATH=/usr/local/bin:$PATH
 export PATH=/sbin:$PATH
 export PATH=/usr/sbin:$PATH
 export PATH=/usr/bin:$PATH
 export PATH=/bin:$PATH
 export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+export PATH=/usr/local/bin:$PATH
 
 for file in ~/.{extra,exports,aliases,functions}; do
 	[ -r "$file" ] && source "$file"
