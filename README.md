@@ -10,4 +10,4 @@ source bootstrap.sh
 Default directory should be: `~/Dev/bash/dotfiles`
 
 ## License
-MIT
+MIT © [Daniel Husar](https://github.com/danielhusar)
