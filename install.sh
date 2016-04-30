@@ -45,9 +45,9 @@ brew cask install catch
 brew cask install dropbox
 brew cask install firefox
 brew cask install flash-player
-brew cask install github
 brew cask install gitter
 brew cask install google-chrome
+brew cask install iterm2
 brew cask install imageoptim
 brew cask install img2icns
 brew cask install karabiner
@@ -57,7 +57,6 @@ brew cask install limechat
 brew cask install litecoin
 brew cask install mailbox
 brew cask install mou
-brew cask install node-webkit
 brew cask install openoffice
 brew cask install opera
 brew cask install perian
@@ -68,24 +67,21 @@ brew cask install smoothmouse
 brew cask install steam
 brew cask install subtitles
 brew cask install teamspeak-client
-brew cask install totalfinder
-brew cask install totalterminal
 brew cask install transmit
 brew cask install utorrent
 brew cask install virtualbox
 brew cask install vlc
-brew cask install web-sharing
 
 # Quick view plugins
-brew cask install qlcolorcode 
-brew cask install qlstephen 
-brew cask install qlmarkdown 
-brew cask install quicklook-json 
-brew cask install qlprettypatch 
-brew cask install quicklook-csv 
-brew cask install betterzipql 
-brew cask install webp-quicklook 
-brew cask install suspicious-package 
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlprettypatch
+brew cask install quicklook-csv
+brew cask install betterzipql
+brew cask install webp-quicklook
+brew cask install suspicious-package
 brew cask install qlimagesize
 qlmanage -r
 
@@ -94,14 +90,9 @@ brew cleanup
 
 # Node
 sudo npm install --global trash
-sudo npm install --global gulp
-sudo npm install --global grunt
-sudo npm install --global mocha
 sudo npm install --global yo
 sudo npm install --global vtop
-sudo npm install --global bower
 sudo npm install --global generator-simple-node-package
-sudo npm install --global generator-gulp-plugin-boilerplate
 
 # Fix permissions
 sudo chown -R $(whoami) ~/.npm
@@ -112,3 +103,6 @@ curl get.pow.cx | sh
 # Bundler
 sudo gem install bundler
 sudo gem install powder
+
+# Oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

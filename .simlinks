@@ -1,11 +1,7 @@
 # Sublime simlinks
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 cd ~/Library/Application\ Support/Sublime\ Text\ 3
 mv ./Installed\ Packages ./Installed\ Packages1
 mv ./Packages ./Packages1
 ln -s ~/Dropbox/_sync/Sublime\ Text\ 3/Packages ./Packages
 ln -s ~/Dropbox/_sync/Sublime\ Text\ 3/Installed\ Packages ./Installed\ Packages
-cd
-
-
-ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+cd -
