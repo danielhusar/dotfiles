@@ -71,6 +71,7 @@ brew cask install transmit
 brew cask install utorrent
 brew cask install virtualbox
 brew cask install vlc
+brew cask install xtrafinder
 
 # Quick view plugins
 brew cask install qlcolorcode
