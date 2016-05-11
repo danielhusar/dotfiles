@@ -12,6 +12,7 @@ alias rm='rm -i'
 alias dotfiles="~/Dev/bash/dotfiles/bootstrap.sh"
 alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
 alias hosts='open -a "Sublime Text" /etc/hosts'
+alias copy="tr -d '\n' | pbcopy"
 
 # Lisitng files
 if ls --color > /dev/null 2>&1; then # GNU `ls`
