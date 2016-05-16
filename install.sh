@@ -90,7 +90,7 @@ qlmanage -r
 brew cleanup
 
 # Node
-sudo npm install --global trash
+sudo npm install --global trash-cli
 sudo npm install --global yo
 sudo npm install --global vtop
 sudo npm install --global generator-simple-node-package
