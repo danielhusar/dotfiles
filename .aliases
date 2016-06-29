@@ -6,6 +6,7 @@ alias bower="noglob bower"
 alias vps="ssh ubuntu@danielhusar.sk"
 alias chrome="open -a Google\ Chrome --args --disable-web-security"
 alias canary="open -a Google\ Chrome\ Canary --disable-web-security"
+alias simulator='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
 alias git=hub
 alias rm='rm -i'
 
