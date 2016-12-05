@@ -36,7 +36,8 @@ sh4 -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/ma
 
 # Install dotfiles
 rsync --exclude ".git/" --exclude ".DS_Store" --exclude "Brewfile" \
-  --exclude "README.md" --exclude "com.googlecode.iterm2.plist" --exclude "install.sh" \
+  --exclude "README.md" --exclude "com.googlecode.iterm2.plist" \
+  --exclude "install.sh" --exclude "brew_bundle.sh" \
   --exclude "dotfiles.sublime-project" --exclude "dotfiles.sublime-workspace" -av --no-perms . ~
 
 # Fix permissions
