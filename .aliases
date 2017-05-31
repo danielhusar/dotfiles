@@ -56,3 +56,6 @@ done
 
 # Get week number
 alias week='date +%V'
+
+alias ocean='ssh root@67.205.135.29'
+alias dstats='docker stats $(docker ps --format={{.Names}})'
