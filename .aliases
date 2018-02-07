@@ -56,3 +56,13 @@ done
 
 # Get week number
 alias week='date +%V'
+
+# Pilot specific
+
+alias p='pilot'
+alias pe='pilot exec'
+alias pem='pilot exec marketing-site'
+alias pemr='pilot stop marketing-site && pilot start marketing-site'
+alias pei='pilot exec intercom'
+alias ocean='ssh root@danielhusar.sk'
+alias dstats='docker stats $(docker ps --format={{.Names}})'

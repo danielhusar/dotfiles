@@ -38,6 +38,8 @@ function gpull() {
 
 # Git rebase
 function grebase() {
+  git add .
+  git commit -m "rebasing"
   git rebase -i origin/master
 }
 
@@ -118,13 +120,13 @@ function s() {
   fi
 }
 
-# `a` with no arguments opens the current directory in Atom, otherwise
+# `c` with no arguments opens the current directory in Code, otherwise
 # opens the given location
-function a() {
+function c() {
   if [ $# -eq 0 ]; then
-    atom .
+    code .
   else
-    atom "$@"
+    code "$@"
   fi
 }
 
@@ -162,9 +164,19 @@ function img(){
 
 function mobile(){
   fn="$1"
-  of=`echo $1 | sed s/mp4/jpg/`
+  of=`echo $1 | sed s/mp4/png/`
   lf=`ffprobe -show_streams "$fn" 2> /dev/null | grep nb_frames | head -1 | cut -d \= -f 2`
   rm -f "$of"
   let "lf = $lf - 1"
   ffmpeg -i $fn -vf select=\'eq\(n,$lf\) -vframes 1 $of
+}
+
+function png() {
+  for f in *.png; do
+    convert ./"$f" -colors 256 ${f%.jpg}
+  done
+}
+
+function tojpg() {
+  mkdir out; sips -s format jpeg *.* --out out
 }
