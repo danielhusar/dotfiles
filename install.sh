@@ -47,3 +47,6 @@ sudo chown -R $(whoami) ~/.npm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 
 source ~/.zshrc
+
+# Fix mojave text rendering
+defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
