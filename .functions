@@ -180,3 +180,11 @@ function png() {
 function tojpg() {
   mkdir out; sips -s format jpeg *.* --out out
 }
+
+fbr() {
+  git fetch
+  local branches branch
+  branches=$(git branch --sort=-committerdate) &&
+  branch=$(echo "$branches" | fzf +s +m -e) &&
+  git checkout $(echo "$branch" | sed "s:.* remotes/origin/::" | sed "s:.* ::")
+}
